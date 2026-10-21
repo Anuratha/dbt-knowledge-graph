@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# dbt generated artifacts
+target/
+logs/
+dbt_packages/
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+pg_data/
+neo4j_data/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
